@@ -11,27 +11,45 @@ export type TaskType = {
     title: string
 }
 
-const TodoList: FC<TodoListPropsType> = (props) => {
-    const title = props.title
+const TodoList: FC<TodoListPropsType> = (
+    // 3
+    {
+        title,
+        tasks
+    }) => {
+    // 1.
+    // const title = props.title
+    // const tasks = props.tasks
+    // 2
+    // const {title, tasks} = props
 
-    return(
-    <div className="todoList">
-        <h3>{title}</h3>
-        <div>
-            <input/>
-            <button>+</button>
+    return (
+        <div className="todoList">
+            <h3>{title}</h3>
+            <div>
+                <input/>
+                <button>+</button>
+            </div>
+            <ul>
+                <li>
+                    <input type="checkbox" checked={tasks[0].isDone}/>
+                    <span>{tasks[0].title}</span>
+                </li>
+                <li>
+                    <input type="checkbox" checked={tasks[1].isDone}/>
+                    <span>{tasks[1].title}</span>
+                </li>
+                <li>
+                    <input type="checkbox" checked={tasks[2].isDone}/>
+                    <span>{tasks[2].title}</span>
+                </li>
+            </ul>
+            <div>
+                <button>All</button>
+                <button>Active</button>
+                <button>Completed</button>
+            </div>
         </div>
-        <ul>
-            <li><input type="checkbox" checked={true}/> <span>HTML&CSS</span></li>
-            <li><input type="checkbox" checked={true}/> <span>JS</span></li>
-            <li><input type="checkbox" checked={false}/> <span>React</span></li>
-        </ul>
-        <div>
-            <button>All</button>
-            <button>Active</button>
-            <button>Completed</button>
-        </div>
-    </div>
     )
 }
 
