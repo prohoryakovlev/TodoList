@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, {FC} from 'react';
 
 type TodoListPropsType = {
     title: string
@@ -42,6 +42,10 @@ const TodoList: FC<TodoListPropsType> = (
                 <li>
                     <input type="checkbox" checked={tasks[2].isDone}/>
                     <span>{tasks[2].title}</span>
+                </li>
+                <li>
+                    <input/>
+                    <span></span>
                 </li>
             </ul>
             <div>

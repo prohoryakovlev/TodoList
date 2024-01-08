@@ -48,6 +48,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +78,11 @@
       <workItem from="1692166625021" duration="161000" />
       <workItem from="1692255724731" duration="759000" />
       <workItem from="1702211377236" duration="438000" />
-      <workItem from="1702733936616" duration="10397000" />
+      <workItem from="1702733936616" duration="10435000" />
+      <workItem from="1702804156998" duration="151000" />
+      <workItem from="1702804330883" duration="13000" />
+      <workItem from="1702828848699" duration="998000" />
+      <workItem from="1704622304198" duration="1643000" />
     </task>
     <task id="LOCAL-00001" summary="TodoList">
       <created>1702746470395</created>
@@ -77,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702751625567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PropsType">
+      <created>1702764501690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702764501690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
