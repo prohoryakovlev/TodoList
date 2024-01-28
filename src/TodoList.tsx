@@ -17,6 +17,41 @@ const TodoList: FC<TodoListPropsType> = (
         tasks
     }) => {
 
+    // let tasksList: Array<JSX.Element> | JSX.Element
+    // if (tasks.length === 0) {
+    //     tasksList = <span> Ничего нет </span>
+    // } else {
+    //     const listItems: Array<JSX.Element> = []
+    //     for (let i = 0; i < tasks.length; i++) {
+    //         const newListItem =
+    //             <li key={tasks[i].id}>
+    //                 <input type="checkbox" checked={tasks[i].isDone}/>
+    //                 <span>{tasks[i].title}</span>
+    //                 <button>x</button>
+    //             </li>
+    //         listItems.push(newListItem)
+    //     }
+    //     tasksList = <ul>
+    //         {listItems}
+    //     </ul>
+    //
+    // }
+
+    const listItems: Array<JSX.Element> =
+        tasks.map(t => {
+            return (
+                <li key={t.id}>
+                    <input type="checkbox" checked={t.isDone}/>
+                    <span>{t.title}</span>
+                    <button>x</button>
+                </li>
+            )
+        })
+
+    const tasksList: Array<JSX.Element> | JSX.Element = tasks.length
+        ? <ul>{listItems}</ul>
+        : <span> Ничего нет </span>
+
     return (
         <div className="todoList">
             <h3>{title}</h3>
@@ -24,32 +59,7 @@ const TodoList: FC<TodoListPropsType> = (
                 <input/>
                 <button>+</button>
             </div>
-            <p>
-                lorem*100
-
-            </p>
-            <ul>
-                <li>
-                    <input type="checkbox" checked={tasks[0].isDone}/>
-                    <span>{tasks[0].title}</span>
-                </li>
-                <li>
-                    <input type="checkbox" checked={tasks[1].isDone}/>
-                    <span>{tasks[1].title}</span>
-                </li>
-                <li>
-                    <input type="checkbox" checked={tasks[2].isDone}/>
-                    <span>{tasks[2].title}</span>
-                </li>
-                <li>
-                    <input type="checkbox" checked={tasks[3].isDone}/>
-                    <span>{tasks[3].title}</span>
-                </li>
-                <li>
-                    <input/>
-                    <span></span>
-                </li>
-            </ul>
+            {tasksList}
             <div>
                 <button>All</button>
                 <button>Active</button>

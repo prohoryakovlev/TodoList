@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b61693d-141f-4cb0-a00d-6241176476b0" name="Changes" comment="PropsType">
+    <list default="true" id="9b61693d-141f-4cb0-a00d-6241176476b0" name="Changes" comment="Refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,9 @@
       <workItem from="1704622304198" duration="3979000" />
       <workItem from="1705225499908" duration="3277000" />
       <workItem from="1705334273070" duration="11000" />
-      <workItem from="1706449946740" duration="2621000" />
+      <workItem from="1706449946740" duration="6037000" />
+      <workItem from="1706460109193" duration="7000" />
+      <workItem from="1706460135120" duration="1751000" />
     </task>
     <task id="LOCAL-00001" summary="TodoList">
       <created>1702746470395</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704722705825</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactor">
+      <created>1706453293645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706453293645</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TodoList" />
     <MESSAGE value="PropsType" />
-    <option name="LAST_COMMIT_MESSAGE" value="PropsType" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
 </project>
