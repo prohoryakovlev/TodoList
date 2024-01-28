@@ -44,6 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\itproject\\1-todolist\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,7 +83,10 @@
       <workItem from="1702804156998" duration="151000" />
       <workItem from="1702804330883" duration="13000" />
       <workItem from="1702828848699" duration="998000" />
-      <workItem from="1704622304198" duration="1643000" />
+      <workItem from="1704622304198" duration="3979000" />
+      <workItem from="1705225499908" duration="3277000" />
+      <workItem from="1705334273070" duration="11000" />
+      <workItem from="1706449946740" duration="2621000" />
     </task>
     <task id="LOCAL-00001" summary="TodoList">
       <created>1702746470395</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702764501690</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PropsType">
+      <created>1704722705825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704722705825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

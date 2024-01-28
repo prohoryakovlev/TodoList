@@ -12,16 +12,10 @@ export type TaskType = {
 }
 
 const TodoList: FC<TodoListPropsType> = (
-    // 3
     {
         title,
         tasks
     }) => {
-    // 1.
-    // const title = props.title
-    // const tasks = props.tasks
-    // 2
-    // const {title, tasks} = props
 
     return (
         <div className="todoList">
@@ -30,6 +24,10 @@ const TodoList: FC<TodoListPropsType> = (
                 <input/>
                 <button>+</button>
             </div>
+            <p>
+                lorem*100
+
+            </p>
             <ul>
                 <li>
                     <input type="checkbox" checked={tasks[0].isDone}/>
@@ -42,6 +40,10 @@ const TodoList: FC<TodoListPropsType> = (
                 <li>
                     <input type="checkbox" checked={tasks[2].isDone}/>
                     <span>{tasks[2].title}</span>
+                </li>
+                <li>
+                    <input type="checkbox" checked={tasks[3].isDone}/>
+                    <span>{tasks[3].title}</span>
                 </li>
                 <li>
                     <input/>
