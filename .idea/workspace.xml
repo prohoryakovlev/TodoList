@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b61693d-141f-4cb0-a00d-6241176476b0" name="Changes" comment="Add Item">
+    <list default="true" id="9b61693d-141f-4cb0-a00d-6241176476b0" name="Changes" comment="RemoveTask">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoList.tsx" afterDir="false" />
@@ -93,7 +93,7 @@
       <workItem from="1706464645576" duration="596000" />
       <workItem from="1706507209560" duration="9000" />
       <workItem from="1706507786281" duration="1151000" />
-      <workItem from="1706545185519" duration="5043000" />
+      <workItem from="1706545185519" duration="11219000" />
     </task>
     <task id="LOCAL-00001" summary="TodoList">
       <created>1702746470395</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706462095136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="RemoveTask">
+      <created>1706550864386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706550864386</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="PropsType" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Add Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Item" />
+    <MESSAGE value="RemoveTask" />
+    <option name="LAST_COMMIT_MESSAGE" value="RemoveTask" />
   </component>
 </project>
